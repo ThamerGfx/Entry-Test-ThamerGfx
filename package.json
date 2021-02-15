@@ -1,0 +1,27 @@
+{
+  "name": "@stockly/entry-tests-thamergfx",
+  "version": "1.0.0",
+  "description": "Stockly Entry Tests for thamergfx",
+  "scripts": {
+    "hack": "jest --config ./jest.config.js",
+    "start": "jest --config ./jest.config.js \\\\d-[A-Za-z0-9_.-]*\\\\.validation\\\\.js",
+    "timer": "node timer.js",
+    "validate": "jest --config ./jest.config.js"
+  },
+  "keywords": [
+    "stockly",
+    "entry-tests",
+    "thamergfx"
+  ],
+  "author": "Stockly <contact@stockly.ai> (https://stockly.ai)",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "jest": "23.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StocklyRecruitment/EntryTest-ThamerGfx.git"
+  },
+  "end": 1612986180000
+}
